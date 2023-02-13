@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <script src="https://kit.fontawesome.com/cc5de30474.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Temperature Converter
+                <i class="fa-thin fa-temperature-three-quarters"></i>
+        </h1>
+            <p>In this project using HTML, CSS and Javascript, we have a temperature converter where, when inserting
+                any
+                value in any of the inputs, we have the respective temperature conversions both in degrees
+                Celsius(°C),
+                Kelvin(K) and Fahrenheit(°F). Using the concepts of DOM and for creating the logic of the project,
+                the
+                inputs are scanned with a "for" and transforming the results with a "switch case". A reset button
+                clears
+                the form for a new search if desired.
+            </p>
+        </div>
+        <div class="converter">
+            <h1>Temperature converter</h1>
+            <p>Type to convert</p>
+            <div class="form">
+                <label for="celsius">Celsius: (°C)</label>
+                <input type="number" name="celsius" class="input" id="celsius">
+                <label for="kelvin">Kelvin: (K)</label>
+                <input type="number" name="kelvin" class="input" id="kelvin">
+                <label for="farenheit">Fahrenheit: (°F)</label>
+                <input type="number" name="fahrenheit" class="input" id="fahrenheit">
+                <button id="reset">Reset</button>
+            </div>
+        </div>        
+    </div>
+    <div class="footer">
+        <p>&copy;Thigo Dev</p>
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+
+</html>
