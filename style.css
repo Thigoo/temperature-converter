@@ -22,7 +22,6 @@ body {
     width: 100%;
     border-radius: 0.2rem;
     border: 1px solid #000;
-    position: relative;
 }
 
 .title h1 {
@@ -75,23 +74,14 @@ body {
     cursor: pointer;
 }
 
-.footer {
-    font-size: 0.8rem;
-    position: absolute;
-    bottom: 0;
-    background-color: grey;
-    width: 100%;
-    text-align: center;
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {    
     .container {
-        height: 95%;
-        border-radius: 0.5rem;  
-        border: none;      
+        border-radius: 0.5rem;   
+        border: none;     
     }
     .title h1{
-        font-size: 2.7rem;
+        font-size: 2.5rem;
+        border-radius: 0.4rem;
         margin: 0.5rem auto;
         line-height: 3rem;
         background-color: aliceblue;
@@ -101,8 +91,21 @@ body {
         font-size: 1.3rem;
     }
 
-    .converter p, label {
-        font-size: 1.3rem;
+    .converter {
+        background-color: aliceblue;
+        border-radius: 0.5rem;
+        border: none;
+        position: absolute;
+    }
+
+    .converter p{
+        font-size: 1.4rem;
+        font-weight: 450;
+        margin-bottom: 1rem;
+    }
+
+    .form label {
+        font-size: 1.2rem;
     }
 
     .converter h1{
@@ -112,6 +115,7 @@ body {
 
     .form input {
         padding: 0.4rem;
+        font-size: 1.1rem;
     }
 
     .form button {
