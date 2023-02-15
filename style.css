@@ -74,11 +74,11 @@ body {
     cursor: pointer;
 }
 
-@media screen and (max-width: 767px) {    
+@media screen and (max-width: 767px) {   
     .container {
         height: 95%;
         border-radius: 0.5rem;   
-        border: none;     
+        border: none;  
     }
     .title h1{
         font-size: 2.5rem;

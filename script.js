@@ -14,7 +14,7 @@ for (let i = 0; i < inputs.length; i++) {
         switch (e.target.name) {
             case "celsius":
                 kelvin.value = (value + 273.15).toFixed(2);
-                fahrenheit.value = (value * ((9 / 5) + 32)).toFixed(2);
+                fahrenheit.value = (value * (9 / 5) + 32).toFixed(2);
                 break;
             case "kelvin":
                 celsius.value = (value - 273.15).toFixed(2);
