@@ -76,6 +76,7 @@ body {
 
 @media screen and (max-width: 767px) {    
     .container {
+        height: 95%;
         border-radius: 0.5rem;   
         border: none;     
     }
